@@ -24,3 +24,5 @@ def kesha_maker (array)
     string.gsub(string[2], "$")
   end 
 end 
+
+
