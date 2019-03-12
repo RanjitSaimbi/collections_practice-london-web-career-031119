@@ -26,7 +26,8 @@ def kesha_maker (array)
 end 
 
 def find_a (array)
-  array.map. do |string|
-    
+  new_array = []
+  array.each do |string|
+   new_array << if string[0] == "a"
   end 
 end 
