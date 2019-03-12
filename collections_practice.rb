@@ -27,5 +27,6 @@ end
 
 def find_a (array)
   array.map. do |string|
+    
   end 
 end 
