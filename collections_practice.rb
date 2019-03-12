@@ -41,6 +41,7 @@ def add_s (array)
   new_array = []
   array.each do |string|
     if string == "feet"
+      new_array << string
     else 
       new_array << string + "s"
     end 
