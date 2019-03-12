@@ -38,9 +38,11 @@ def sum_array(array)
 end 
 
 def add_s (array)
+  new_array = []
   array.each do |string|
     if string == "feet"
     else 
+      new_array << string + "s"
     end 
   end 
 end 
