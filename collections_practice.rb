@@ -39,5 +39,8 @@ end
 
 def add_s (array)
   array.each do |string|
+    if string == "feet"
+    else 
+    end 
   end 
 end 
