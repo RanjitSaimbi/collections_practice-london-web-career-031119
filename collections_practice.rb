@@ -21,6 +21,6 @@ end
 
 def kesha_maker (array)
   array.map do |string| 
-    string.gsub = "$"
+    string.gsub(string[2], "$")
   end 
 end 
